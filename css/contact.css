@@ -1,0 +1,90 @@
+form {
+  font-size: 1.2rem;
+}
+form label {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+input,
+textarea,
+input:focus,
+textarea:focus {
+  width: 50%;
+  padding: 1rem;
+  color: var(--black);
+  border: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: none;
+  cursor: pointer;
+  margin: 1rem 2rem;
+}
+textarea {
+  resize: none;
+}
+form button {
+  background: var(--secondary);
+  color: white;
+  margin: 3rem;
+  border: none;
+  padding: 1rem;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+form button:hover {
+  background-color: var(--secondary-dark);
+}
+#socialmedia {
+  min-width: 700px;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  transform: translate(46%)
+}
+#socialmedia a {
+  text-decoration: none;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: var(--white);
+  color: var(--black);
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  transform: all .8s ease-in-out;
+  transition: background-color .2s ease;
+  transition: color .1s ease;
+}
+#socialmedia a:hover {
+    transform: scale(1.2)
+}
+#github:hover{
+    background-color: black;
+    color: var(--white2);
+    opacity: 1;
+}
+#linkedin:hover{
+    background-color: #0077B5;
+    color: white;
+    opacity: 1;
+}
+#instagram:hover{
+    background: linear-gradient(to right, #833AB4, #E1306C, #F56040, #FCAF45);
+    color: white ;
+    opacity: 1;
+}
+#youtube:hover{
+    background-color: red;
+    color: white;
+    opacity: 1;
+}
+#facebook:hover{
+    background-color: blue;
+    color: white;
+    opacity: 1;
+}
+
+
+

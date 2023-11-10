@@ -1,0 +1,13 @@
+:root {
+  --primary:  #6cb5ce; /* azul suave */
+  --primary-dark: #5656ae; /* azul más oscuro */
+  --secondary: #1d5259; /* Azul grisáceo suave */
+  --secondary-dark: #0e3948; /* Azul grisáceo oscuro */
+  --white: #f3efef; /* Blanco puro */
+  --white2: #e3d9d9; /* Blanco más cálido */
+  --gray: #e6e4e4; /* Gris claro */
+  --gray2: #b4b4b4; /* Gris medio */
+  --gray3: #8f8e8e; /* Gris oscuro */
+  --black: #393939; /* Grisáceo oscuro */
+  --black2: #141414; /* Negro intenso */
+}
